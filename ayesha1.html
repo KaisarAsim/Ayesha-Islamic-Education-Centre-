@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayesha Islamic Education Centre — Bhagalpur</title>
+  <meta name="description" content="Ayesha Islamic Education Centre, Bhagalpur — Quality Islamic & academic education for children. Admissions open." />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    :root{
+      --accent:#0a6b4a;
+      --accent-2:#e6f6f0;
+      --muted:#6b7280;
+      --card:#fff;
+      --bg:#f6fbf9;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(180deg,var(--bg),#ffffff);
+      color:#0b1320;
+      line-height:1.5;
+    }
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{
+      display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:18px;background:linear-gradient(90deg,var(--accent), #136e59);border-radius:14px;color:#fff;margin-bottom:22px;
+    }
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{
+      width:72px;height:72px;border-radius:12px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:26px
+    }
+    .brand h1{margin:0;font-size:20px;line-height:1.2}
+    .brand p{margin:0;font-size:13px;opacity:0.95}
+    nav a{color:#fff;text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;margin-bottom:22px}
+    .hero-inner{display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+    .hero-img{flex:0 0 300px;border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(8,30,20,0.08)}
+    .hero-img img{width:100%;height:100%;object-fit:cover;display:block}
+    .hero-content{flex:1;min-width:250px}
+    .tag{display:inline-block;background:var(--accent-2);color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:700;margin-bottom:10px}
+    .lead{font-size:22px;font-weight:700;margin:6px 0}
+    .sub{color:var(--muted);margin-bottom:12px}
+    .cta{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .secondary{display:inline-block;padding:10px 14px;border-radius:10px;background:transparent;border:2px solid rgba(10,107,74,0.12);font-weight:700;text-decoration:none;color:var(--accent)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:20px 0}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(12,34,22,0.04)}
+    .card h3{margin:0 0 10px}
+    .small{font-size:14px;color:var(--muted)}
+    .about{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin-bottom:18px}
+    .about-text{flex:1;min-width:260px}
+    ul.courses{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+    ul.courses li{background:var(--accent-2);padding:10px;border-radius:10px}
+    footer{margin-top:28px;padding:18px;border-radius:12px;background:linear-gradient(180deg,#f1fbf8,#ffffff);display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+    .social a{margin-left:12px;color:var(--accent);text-decoration:none}
+    form{display:grid;gap:10px}
+    input,textarea,select{padding:10px;border-radius:8px;border:1px solid #e6eef0;font-size:14px;width:100%}
+    button{padding:10px 14px;border-radius:8px;border:0;background:var(--accent);color:#fff;font-weight:700;cursor:pointer}
+    @media (max-width:768px){
+      .hero-inner{flex-direction:column}
+      .hero-img{flex-basis:100%}
+      .about{flex-direction:column}
+    }
+    img{
+      border-radius: 300px;
+      width: 80px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+         <img src="logo.jpg" alt="logo.jpg">
+        <div>
+          <h1>Ayesha Islamic Education Centre</h1>
+          <p>Bhagalpur, Bihar</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/KaisarAsim/Ayesha-Islamic-Education-Centre-.git">Result</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner card">
+        <div class="hero-content">
+          <span class="tag">Islamic & Modern Education</span>
+          <h2 class="lead">Welcome to Ayesha Islamic Education Centre</h2>
+          <p class="sub">Providing children with both Islamic foundation and modern academic knowledge — Quran memorization, Arabic, Islamic Studies, English, Mathematics, and Science.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="cta" href="#admissions"><i class="fa-solid fa-user-plus"></i> Apply Now</a>
+            <a class="secondary" href="#courses"><i class="fa-solid fa-book"></i> Explore Courses</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="quraan3.jpg" alt="Students reading Quran" />
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="about" class="about">
+        <div class="about-text card">
+          <h3>Our Mission</h3>
+          <p class="small">Our aim is to nurture students with strong Islamic values while equipping them with modern education. Experienced teachers, a safe environment, and holistic development are our priorities.</p>
+          <div style="margin-top:12px">
+            <strong>Programs:</strong>
+            <ul class="courses" style="margin-top:8px">
+              <li>Quran Memorization</li>
+              <li>Quran Recitation & Tajweed</li>
+              <li>Arabic Language</li>
+              <li>Islamic Studies & Fiqh</li>
+              <li>English / Hindi / Urdu</li>
+              <li>Mathematics & Science</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="card" style="min-width:260px">
+          <h3>Highlights</h3>
+          <p class="small">Small class sizes, safe environment, modern curriculum, online support, and exam preparation.</p>
+          <div style="margin-top:10px">
+            <div style="display:flex;gap:8px;align-items:center"><i class="fa-solid fa-chalkboard-user"></i><span class="small">Qualified Teachers</span></div>
+            <div style="display:flex;gap:8px;align-items:center;margin-top:6px"><i class="fa-solid fa-house"></i><span class="small">Safe Classrooms</span></div>
+            <div style="display:flex;gap:8px;align-items:center;margin-top:6px"><i class="fa-solid fa-globe"></i><span class="small">Online Learning Option</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="courses" class="card">
+        <h3>Detailed Courses</h3>
+        <p class="small">We provide suitable classes for all age groups. Explore our featured courses below:</p>
+        <div class="grid" style="margin-top:12px">
+          <div class="card"><h3>Quran Memorization</h3><p class="small">Systematic program under supervision of expert teachers.</p></div>
+          <div class="card"><h3>Tajweed & Recitation</h3><p class="small">Focus on pronunciation, rules of recitation, and voice training.</p></div>
+          <div class="card"><h3>Arabic Language</h3><p class="small">From beginner to advanced — learn to understand Islamic texts.</p></div>
+          <div class="card"><h3>Islamic Studies & Fiqh</h3><p class="small">Principles of Islam, ethics, and practical application.</p></div>
+          <div class="card"><h3>Modern Subjects</h3><p class="small">English, Mathematics, and Science basics.</p></div>
+          <div class="card"><h3>Special Workshops</h3><p class="small">Exam prep, calligraphy, and moral guidance sessions.</p></div>
+        </div>
+      </section>
+
+      <section id="admissions" class="card" style="margin-top:18px">
+        <h3>Admissions</h3>
+        <p class="small">Admissions are open! Parents can apply through the form below or visit the centre directly.</p>
+        <div style="display:grid;grid-template-columns:1fr 320px;gap:16px;margin-top:12px">
+          <div>
+            <form onsubmit="event.preventDefault();alert('Thank you — your application has been received.');">
+              <label>Student Name</label>
+              <input type="text" placeholder="Enter student name" required />
+              <label>Parent/Guardian Name</label>
+              <input type="text" placeholder="Enter parent/guardian name" />
+              <label>Contact Number</label>
+              <input type="tel" placeholder="e.g. +91 9XXXXXXXX" required />
+              <label>Select Course</label>
+              <select>
+                <option>Quran Memorization</option>
+                <option>Tajweed</option>
+                <option>Arabic Language</option>
+                <option>Islamic Studies</option>
+              </select>
+              <label>Additional Information</label>
+              <textarea rows="4" placeholder="Write details if any"></textarea>
+              <div style="margin-top:8px;display:flex;gap:8px">
+                <button type="submit">Submit</button>
+                <a class="secondary" href="#contact">Call Us</a>
+              </div>
+            </form>
+          </div>
+          <aside class="card">
+            <h4>Centre Address</h4>
+            <p class="small">Ayesha Islamic Education Centre,<br/>Near Central Mosque, Bhagalpur, Bihar</p>
+            <p class="small"><strong>Phone:</strong> +91 8604126029</p>
+            <p class="small"><strong>Email:</strong> info@ayesha-bgp.org</p>
+            <div style="margin-top:10px">
+              <strong>Working Hours</strong>
+              <p class="small">Mon–Fri: 8:30 AM — 4:00 PM<br/>Sat: Special Classes</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="card" style="margin-top:18px">
+        <h3>Contact Us</h3>
+        <p class="small">For more queries, fill out the form below or call us directly.</p>
+        <div style="display:grid;grid-template-columns:1fr 320px;gap:12px;margin-top:12px">
+          <div>
+            <form onsubmit="event.preventDefault();alert('Message received. We will contact you soon.');">
+              <input placeholder="Your Name" required />
+              <input placeholder="Contact Number or Email" required />
+              <textarea placeholder="Write your message" rows="4"></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <aside class="card">
+            <h4>Map</h4>
+            <p class="small">See the location of the centre below (sample)</p>
+            <div style="border-radius:8px;overflow:hidden;box-shadow:0 6px 18px rgba(12,34,22,0.06)">
+              <img src="quraan.jpg" alt="map placeholder" style="width:100%;display:block" />
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div style="flex:1">
+        <strong>Ayesha Islamic Education Centre</strong>
+        <div class="small" style="margin-top:6px">Bhagalpur — Quality education with Islamic values.</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+        </div>
+        <div class="small">&copy; <span id="year"></span> Ayesha IEC — All rights reserved</div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
